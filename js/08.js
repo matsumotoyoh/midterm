@@ -1,8 +1,8 @@
-function(x){
-if(x % 4 == 0 && x % 100 !=0){
+function isLeapYear(a){
+if(a % 4 == 0 && a % 100 !=0){
   return true;
 }
 
-x % 4 == 0 && x % 100 != 0 && x % 400 !=0 {
+a % 4 == 0 && a % 100 != 0 && a % 400 !=0 {
   return false;
 }

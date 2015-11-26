@@ -1,9 +1,10 @@
 function isPrimeNumer(number){
-
-
-  while(var i =1; i ++)
-  if(n%i == 0){
-    return true;
-
-    return false;
+  i = 2;
+    while(i < number){
+      if(number % i == 0){
+        return false;
+      }
+      i = i + 1;
+      }
+return true;
   }
